@@ -1,0 +1,11 @@
+/* PROGRAM TO CALCULATE THE AREA OF A CIRCLE USING RADIUS */
+
+#include <stdio.h>
+int main() 
+{
+    float radius, area;
+    radius = 12.0;
+    area = 3.14*radius*radius;
+    printf("area of the circle is %f", area);
+    return 0;
+}
